@@ -1,0 +1,16 @@
+[package]
+name = "rust-folder-crate"
+version = "0.1.0"
+edition = "2021"
+description = "Sophisticated CLI tool to analyze directory contents and report the largest files."
+homepage = "https://github.com/1cbyc/rust-folder-crate"
+repository = "https://github.com/1cbyc/rust-folder-crate"
+license = "MIT"
+keywords = ["cli", "directory", "disk-usage"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = "2"
+file-size = "1"
+thiserror = "1"
+walkdir = "2"
